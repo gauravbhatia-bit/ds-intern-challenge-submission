@@ -1,0 +1,9 @@
+id,text,label,prediction,accuracy,macro_f1,macro_precision,macro_recall
+1,The retrofit reduced annual electricity use by 18 percent according to metered readings.,supported,supported,1.0,1.0,1.0,1.0
+2,The project is carbon neutral because the company planted some trees.,unsupported,unsupported,1.0,1.0,1.0,1.0
+3,Utility bills show a reduction from 120 MWh to 96 MWh after installation.,supported,supported,1.0,1.0,1.0,1.0
+4,This product eliminates all emissions in every operating condition.,unsupported,unsupported,1.0,1.0,1.0,1.0
+5,The audit records a verified 11 percent reduction in natural-gas consumption.,supported,supported,1.0,1.0,1.0,1.0
+6,"Energy savings are guaranteed, although no baseline or measurement period is provided.",unsupported,unsupported,1.0,1.0,1.0,1.0
+7,A third-party report confirms avoided emissions of 42 tonnes CO2e using the stated methodology.,supported,supported,1.0,1.0,1.0,1.0
+8,The building is greener than competitors and therefore qualifies for credits.,unsupported,unsupported,1.0,1.0,1.0,1.0

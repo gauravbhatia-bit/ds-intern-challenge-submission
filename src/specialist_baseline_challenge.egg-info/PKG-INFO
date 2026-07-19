@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: specialist-baseline-challenge
+Version: 0.1.0
+Summary: Minimal sandbox for validating a specialist-model benchmark
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.0
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: matplotlib>=3.7
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
+Provides-Extra: models
+Requires-Dist: transformers>=4.40; extra == "models"
+Requires-Dist: datasets>=2.18; extra == "models"
+Requires-Dist: torch>=2.1; extra == "models"

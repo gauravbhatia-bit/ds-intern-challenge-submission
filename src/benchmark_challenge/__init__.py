@@ -1,0 +1,1 @@
+"""Minimal benchmark challenge sandbox."""
