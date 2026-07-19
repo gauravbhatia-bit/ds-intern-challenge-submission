@@ -7,7 +7,8 @@ outputs/recommendation.md, and report/final_report.md. It is separate from the
 synthetic smoke test in run_demo.py, which only proves the repository plumbing works.
 
 Usage:
-    python -m benchmark_challenge.run_climate_test --sample-size 30 --seed 42 --output outputs/results.csv
+    python -m benchmark_challenge.run_climate_test --sample-size 30 --seed 42 \
+        --output outputs/results.csv
 
 Requires (not part of the base package, install separately):
     pip install torch transformers datasets
@@ -89,7 +90,14 @@ def main() -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     frame.to_csv(output, index=False)
 
-    print({"rows": len(frame), **metrics, "runtime_seconds": runtime_seconds, "output": str(output)})
+    print(
+        {
+            "rows": len(frame),
+            **metrics,
+            "runtime_seconds": runtime_seconds,
+            "output": str(output),
+        }
+    )
 
 
 if __name__ == "__main__":
